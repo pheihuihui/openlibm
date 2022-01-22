@@ -29,7 +29,7 @@ USEGCC = 0
 USECLANG = 1
 endif
 
-AR = $(TOOLPREFIX)ar
+AR = $(TOOLPREFIX)emar
 
 ifeq ($(ARCH),wasm32)
 CC = clang-8
